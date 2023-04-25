@@ -1,0 +1,91 @@
+body {
+  /* remove margins and scroll bars */
+  margin: 0;
+  overflow: hidden;
+
+  /* style text */
+  text-align: center;
+  font-size: 12px;
+  font-family: Sans-Serif;
+
+  /* color text */
+  color: rgb(236, 0, 0);
+}
+
+h1 {
+  /* position the heading */
+  position: absolute;
+  width: 50%;
+
+  /* make sure that the heading is drawn on top */
+  z-index: 1;
+}
+.msg_1 {
+
+  position: fixed;
+  width: 800px;
+  top: 400px;
+  left: 10px;
+  text-align: left;
+  background: rgb(64, 128, 135);
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+.title{
+
+  font-size: 4rem;
+  color: rgb(5, 163, 255);
+  
+
+  font-family: system-ui;
+  
+}
+
+.button {
+
+  position: fixed;
+  left: 500px;
+  background-color: rgb(64, 128, 135);
+  color: rgb(0, 0, 0);
+  border: 2px solid #0000;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 12px;
+}
+
+#scene-container {
+  /* tell our scene container to take up the full page */
+ position: fixed;
+  left: 900px;
+  top: 0px;
+  width: 1000px;
+  height: 1000px;
+  display: block;
+  z-index: -1;
+/*
+position: absolute;
+width: 100%;
+height: 100%;
+  /*
+    Set the container's background color to the same as the scene's
+    background to prevent flashing on load
+  */
+  background-color: rgb(72, 20, 110);
+}
+
+
+p {
+  font-size: 4rem;
+  color: rgb(5, 163, 255);
+  font-family: Helvetica, Arial, sans-serif;
+}
+a {
+  font-size: 1.5rem;
+  color: rgb(0, 236, 71);
+  font-family: Helvetica, Arial, sans-serif;
+}
